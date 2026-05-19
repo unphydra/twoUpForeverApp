@@ -1,6 +1,6 @@
 export const siteConfig = {
   profile: {
-    backgroundImage: "/bg.png",
+    backgroundImage: "/hero_bg.png",
     description: "Gear tested and trusted by us on the open road.",
     whoWeAre:
       "We are a passionate bike-riding couple exploring the world on two wheels. We share the gear, accessories, and luggage that keep us safe and comfortable on our journeys. Follow our adventure!",
@@ -114,17 +114,6 @@ export const siteConfig = {
             title: "Jackets",
             links: [
               {
-                title: "Royal Enfield Explorer V4 Riding Jacket",
-                description:
-                  "All-weather riding jacket with CE level protection and ventilation.",
-                image:
-                  "https://m.media-amazon.com/images/I/71dj901SB7L._SL1500_.jpg",
-                urls: [
-                  { label: "Flipkart", url: "https://fktr.in/of567Kz" },
-                  { label: "Amazon", url: "https://amzn.to/3O4I0qa" },
-                ],
-              },
-              {
                 title: "Axor Cruise 2 Jacket",
                 description:
                   "Stylish and protective riding jacket for your adventures.",
@@ -144,6 +133,17 @@ export const siteConfig = {
                 urls: [
                   { label: "Amazon", url: "https://amzn.to/4uNj5r4" },
                   { label: "Flipkart", url: "https://fktr.in/hWi1b70" },
+                ],
+              },
+              {
+                title: "Royal Enfield Explorer V4 Riding Jacket",
+                description:
+                  "All-weather riding jacket with CE level protection and ventilation.",
+                image:
+                  "https://m.media-amazon.com/images/I/71dj901SB7L._SL1500_.jpg",
+                urls: [
+                  { label: "Flipkart", url: "https://fktr.in/of567Kz" },
+                  { label: "Amazon", url: "https://amzn.to/3O4I0qa" },
                 ],
               },
             ],
@@ -192,6 +192,16 @@ export const siteConfig = {
                 ],
               },
               {
+                title: "Rynox Advento Pro Gloves",
+                description:
+                  "Premium adventure touring gloves with excellent protection and comfort.",
+                image:
+                  "https://rynoxgear.com/cdn/shop/files/Advento_Pro_3D_IMG_Black_Red_001_1300x.jpg?v=1757065518",
+                urls: [
+                  { label: "Amazon", url: "https://amzn.to/4dZQXf9" },
+                ],
+              },
+              {
                 title: "Steelbird Polyester Adventure A-1 Gloves",
                 description:
                   "Full finger gloves designed for adventure touring and daily commutes.",
@@ -200,16 +210,6 @@ export const siteConfig = {
                 urls: [
                   { label: "Flipkart", url: "https://fktr.in/gf807yW" },
                   { label: "Amazon", url: "https://amzn.to/4eYYcVj" },
-                ],
-              },
-              {
-                title: "Rynox Advento Pro Gloves",
-                description:
-                  "Premium adventure touring gloves with excellent protection and comfort.",
-                image:
-                  "https://rynoxgear.com/cdn/shop/files/Advento_Pro_3D_IMG_Black_Red_001_1300x.jpg?v=1757065518",
-                urls: [
-                  { label: "Amazon", url: "https://amzn.to/4dZQXf9" },
                 ],
               },
             ],
@@ -242,16 +242,6 @@ export const siteConfig = {
                   "https://m.media-amazon.com/images/I/61ylQ5euPYL._SX679_.jpg",
                 urls: [
                   { label: "Amazon", url: "https://amzn.to/4tRXf4Y" },
-                ],
-              },
-              {
-                title: "Rynox Reload Hydration Bladder 2L",
-                description:
-                  "2-liter hydration bladder to keep you hydrated on the go.",
-                image:
-                  "https://m.media-amazon.com/images/I/51ecvnDePJL._SL1500_.jpg",
-                urls: [
-                  { label: "Amazon", url: "https://amzn.to/4um7hw6" },
                 ],
               },
               {
@@ -320,12 +310,29 @@ export const siteConfig = {
               "https://rukminim1.flixcart.com/image/3584/3584/xif0q/balaclava/f/n/8/free-full-face-mask-kingsway-original-imahnfkndcafyzbf.jpeg?q=90",
             urls: [{ label: "Flipkart", url: "https://fktr.in/DUaaqsv" }],
           },
+          {
+            title: "Rain Overtrousers with Shoe Cover",
+            description:
+              "Waterproof overtrousers with integrated shoe covers for rain protection.",
+            image:
+              "https://contents.mediadecathlon.com/p2728008/668da2edddc37c0d738cef9f5482cb04/p2728008.jpg",
+            urls: [
+              { label: "Decathlon", url: "https://bitli.in/25Vo6eW" },
+            ],
+          },
         ],
       },
       {
         id: "luggages",
         title: "Luggages",
         links: [
+          {
+            title: "Rynox Navigator Hydration Backpack - 4 Ltr",
+            description: "4-liter hydration backpack for long rides.",
+            image:
+              "https://m.media-amazon.com/images/I/51XBVFKBpSL._SL1080_.jpg",
+            urls: [{ label: "Amazon", url: "https://amzn.to/4nKnDfC" }],
+          },
           {
             title: "Rynox Pod Saddle Bag",
             description:
@@ -353,6 +360,14 @@ export const siteConfig = {
                 url: "https://www.bikenbiker.com/products/skuidst602bskuid-givi-st602b-tanklock-tank-bag-4-litres-sport-t-range",
               },
             ],
+          },
+          {
+            title: "Rynox Reload Hydration Bladder 2L",
+            description:
+              "2-liter hydration bladder to keep you hydrated on the go.",
+            image:
+              "https://m.media-amazon.com/images/I/51ecvnDePJL._SL1500_.jpg",
+            urls: [{ label: "Amazon", url: "https://amzn.to/4um7hw6" }],
           },
           {
             title: "Motowolf Bumper Bag",
@@ -754,31 +769,156 @@ export const siteConfig = {
     description:
       "An interactive map of our favorite rides and destinations.",
     visitedPlaces: [
-      { id: 1, name: "Gurudongmar Lake, Sikkim", coordinates: [28.0250, 88.7100], description: "High altitude lake in North Sikkim." },
-      { id: 2, name: "Zuluk, Sikkim", coordinates: [27.2500, 88.7800], description: "Historic Silk Route destination." },
-      { id: 3, name: "Pelling, Sikkim", coordinates: [27.3100, 88.2300], description: "Beautiful views of the Kanchenjunga." },
-      { id: 4, name: "Darjeeling, West Bengal", coordinates: [27.0410, 88.2663], description: "The Queen of the Hills." },
-      { id: 5, name: "Ajodhya Pahar, West Bengal", coordinates: [23.2100, 86.1000], description: "Hills in the Purulia district." },
-      { id: 6, name: "Susunia Pahar, West Bengal", coordinates: [23.4000, 86.9800], description: "Archaeological and trekking site." },
-      { id: 7, name: "Digha, West Bengal", coordinates: [21.6266, 87.5074], description: "Popular beach town." },
-      { id: 8, name: "Bolpur, West Bengal", coordinates: [23.6700, 87.7200], description: "Land of Bauls and Tagore." },
-      { id: 9, name: "Puri, Odisha", coordinates: [19.8135, 85.8312], description: "Holy city and beach destination." },
-      { id: 10, name: "Ranchi, Jharkhand", coordinates: [23.3441, 85.3096], description: "City of waterfalls." },
-      { id: 11, name: "Mussoorie, Uttarakhand", coordinates: [30.4599, 78.0664], description: "Queen of the Hills in the north." },
-      { id: 12, name: "Rishikesh, Uttarakhand", coordinates: [30.0869, 78.2676], description: "Yoga capital and adventure hub." },
-      { id: 13, name: "Gokarna, Karnataka", coordinates: [14.5479, 74.3188], description: "Beaches and temples." },
-      { id: 14, name: "Mangalore, Karnataka", coordinates: [12.9141, 74.8560], description: "Coastal city." },
-      { id: 15, name: "Honnavar, Karnataka", coordinates: [14.2800, 74.4500], description: "Scenic coastal town." },
-      { id: 16, name: "Chikmagalur, Karnataka", coordinates: [13.3161, 75.7720], description: "Coffee land of Karnataka." },
-      { id: 17, name: "Coorg, Karnataka", coordinates: [12.3375, 75.8042], description: "Scotland of India." },
-      { id: 18, name: "Sangama, Karnataka", coordinates: [12.2500, 77.4000], description: "Confluence of rivers." },
-      { id: 19, name: "Bolumalai Fort, Tamil Nadu", coordinates: [11.0000, 78.0000], description: "Historic fort." },
-      { id: 20, name: "Hogenakkal, Tamil Nadu", coordinates: [12.1100, 77.7700], description: "Niagara of India." },
-      { id: 21, name: "Ooty, Tamil Nadu", coordinates: [11.4102, 76.6991], description: "Queen of hill stations." },
-      { id: 22, name: "Yercaud, Tamil Nadu", coordinates: [11.7752, 78.2093], description: "Poor man's Ooty." },
-      { id: 23, name: "Kodaikanal, Tamil Nadu", coordinates: [10.2381, 77.4891], description: "Princess of Hill Stations." },
-      { id: 24, name: "Puducherry, Tamil Nadu", coordinates: [11.9416, 79.8083], description: "French colonial settlement." },
-      { id: 25, name: "Wayanad, Kerala", coordinates: [11.6854, 76.1320], description: "Green paradise." }
+      {
+        id: 1,
+        name: "Gurudongmar Lake, Sikkim",
+        coordinates: [28.025, 88.71],
+        description: "High altitude lake in North Sikkim.",
+      },
+      {
+        id: 2,
+        name: "Zuluk, Sikkim",
+        coordinates: [27.25, 88.78],
+        description: "Historic Silk Route destination.",
+      },
+      {
+        id: 3,
+        name: "Pelling, Sikkim",
+        coordinates: [27.31, 88.23],
+        description: "Beautiful views of the Kanchenjunga.",
+      },
+      {
+        id: 4,
+        name: "Darjeeling, West Bengal",
+        coordinates: [27.041, 88.2663],
+        description: "The Queen of the Hills.",
+      },
+      {
+        id: 5,
+        name: "Ajodhya Pahar, West Bengal",
+        coordinates: [23.21, 86.1],
+        description: "Hills in the Purulia district.",
+      },
+      {
+        id: 6,
+        name: "Susunia Pahar, West Bengal",
+        coordinates: [23.4, 86.98],
+        description: "Archaeological and trekking site.",
+      },
+      {
+        id: 7,
+        name: "Digha, West Bengal",
+        coordinates: [21.6266, 87.5074],
+        description: "Popular beach town.",
+      },
+      {
+        id: 8,
+        name: "Bolpur, West Bengal",
+        coordinates: [23.67, 87.72],
+        description: "Land of Bauls and Tagore.",
+      },
+      {
+        id: 9,
+        name: "Puri, Odisha",
+        coordinates: [19.8135, 85.8312],
+        description: "Holy city and beach destination.",
+      },
+      {
+        id: 10,
+        name: "Ranchi, Jharkhand",
+        coordinates: [23.3441, 85.3096],
+        description: "City of waterfalls.",
+      },
+      {
+        id: 11,
+        name: "Mussoorie, Uttarakhand",
+        coordinates: [30.4599, 78.0664],
+        description: "Queen of the Hills in the north.",
+      },
+      {
+        id: 12,
+        name: "Rishikesh, Uttarakhand",
+        coordinates: [30.0869, 78.2676],
+        description: "Yoga capital and adventure hub.",
+      },
+      {
+        id: 13,
+        name: "Gokarna, Karnataka",
+        coordinates: [14.5479, 74.3188],
+        description: "Beaches and temples.",
+      },
+      {
+        id: 14,
+        name: "Mangalore, Karnataka",
+        coordinates: [12.9141, 74.856],
+        description: "Coastal city.",
+      },
+      {
+        id: 15,
+        name: "Honnavar, Karnataka",
+        coordinates: [14.28, 74.45],
+        description: "Scenic coastal town.",
+      },
+      {
+        id: 16,
+        name: "Chikmagalur, Karnataka",
+        coordinates: [13.3161, 75.772],
+        description: "Coffee land of Karnataka.",
+      },
+      {
+        id: 17,
+        name: "Coorg, Karnataka",
+        coordinates: [12.3375, 75.8042],
+        description: "Scotland of India.",
+      },
+      {
+        id: 18,
+        name: "Sangama, Karnataka",
+        coordinates: [12.25, 77.4],
+        description: "Confluence of rivers.",
+      },
+      {
+        id: 19,
+        name: "Bolumalai Fort, Tamil Nadu",
+        coordinates: [11.0, 78.0],
+        description: "Historic fort.",
+      },
+      {
+        id: 20,
+        name: "Hogenakkal, Tamil Nadu",
+        coordinates: [12.11, 77.77],
+        description: "Niagara of India.",
+      },
+      {
+        id: 21,
+        name: "Ooty, Tamil Nadu",
+        coordinates: [11.4102, 76.6991],
+        description: "Queen of hill stations.",
+      },
+      {
+        id: 22,
+        name: "Yercaud, Tamil Nadu",
+        coordinates: [11.7752, 78.2093],
+        description: "Poor man's Ooty.",
+      },
+      {
+        id: 23,
+        name: "Kodaikanal, Tamil Nadu",
+        coordinates: [10.2381, 77.4891],
+        description: "Princess of Hill Stations.",
+      },
+      {
+        id: 24,
+        name: "Puducherry, Tamil Nadu",
+        coordinates: [11.9416, 79.8083],
+        description: "French colonial settlement.",
+      },
+      {
+        id: 25,
+        name: "Wayanad, Kerala",
+        coordinates: [11.6854, 76.132],
+        description: "Green paradise.",
+      },
     ],
   },
 };

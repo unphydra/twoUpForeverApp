@@ -14,7 +14,7 @@ function Navbar() {
       top: 0,
       zIndex: 50
     }}>
-      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: 0 }}>
+      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: 0, flexWrap: 'wrap', gap: '1rem' }}>
         <Link to="/" style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text-main)' }}>
           Two_Up_<span style={{ color: 'var(--accent)' }}>Forever</span>
         </Link>
