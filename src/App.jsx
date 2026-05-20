@@ -1,5 +1,6 @@
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './index.css';
+import { Analytics } from '@vercel/analytics/react';
 import AccessoryView from './pages/AccessoryView';
 import Home from './pages/Home';
 import Travelogue from './pages/Travelogue';
@@ -51,6 +52,7 @@ function App() {
           <p>&copy; {new Date().getFullYear()} two_up_forever. All rights reserved.</p>
         </footer>
       </div>
+      <Analytics />
     </Router>
   );
 }
