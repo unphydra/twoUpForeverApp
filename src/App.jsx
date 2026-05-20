@@ -2,6 +2,7 @@ import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './index.css';
 import AccessoryView from './pages/AccessoryView';
 import Home from './pages/Home';
+import Travelogue from './pages/Travelogue';
 
 function Navbar() {
   return (
@@ -20,6 +21,7 @@ function Navbar() {
         </Link>
         <nav style={{ display: 'flex', gap: '1.5rem' }}>
           <Link to="/" style={{ fontWeight: 500 }} className="nav-link">Home</Link>
+          <Link to="/travelogue" style={{ fontWeight: 500 }} className="nav-link">Travelogue</Link>
           <Link to="/accessories" style={{ fontWeight: 500 }} className="nav-link">Accessories</Link>
         </nav>
       </div>
@@ -35,6 +37,7 @@ function App() {
         <main style={{ flexGrow: 1 }}>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/travelogue" element={<Travelogue />} />
             <Route path="/accessories/*" element={<AccessoryView />} />
           </Routes>
         </main>

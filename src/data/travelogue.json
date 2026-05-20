@@ -1,0 +1,28 @@
+{
+  "title": "Our Photo Album & Stories",
+  "description": "Every ride tells a story. Here are the moments, the roads, and the memories we captured along the way.",
+  "stories": [
+    {
+      "id": "sangama-confluence",
+      "title": "Chasing the Confluence at Sangama",
+      "location": "Sangama, Karnataka",
+      "date": "Dec 6, 2025",
+      "coordinates": [12.25, 77.4],
+      "images": ["/sangama_road_trip.png"],
+      "story": "The ride to Sangama is a serene escape from the bustling city of Bangalore. Winding through Kanakapura's scenic canopy roads, the air turns crisp as you approach the confluence of the two mighty rivers—Kaveri and Arkavathi. The journey itself is a delight, with smooth asphalt weaving through lush green hills and overhanging tamarind trees.\n\nReaching the riverbank, we were greeted by the majestic sight of the rivers merging into a wide, peaceful flow, glittering under the afternoon sun. Parking our Bajaj Pulsar NS 400 near the waterfront, we spent the afternoon listening to the gentle flow of water and taking in the breathtaking gorge surroundings. It was the perfect blend of high-speed highway cruising, bumpy riverside trails, and pure tranquility. Sharing this day by the water, surrounded by forest-covered hills, reminded us why we fell in love with two-wheeled exploration.",
+      "stats": {
+        "distance": "250 km",
+        "duration": "1 Day",
+        "bike": "Bajaj Pulsar NS 400",
+        "terrain": "Forest Canopy & River Trails"
+      },
+      "gearUsed": [
+        "Steelbird SBH Helmet",
+        "Axor Cruise 2 Jacket",
+        "Axor Diva Riding Jacket",
+        "JB Racing Top Case 45L",
+        "Rynox Navigator Hydration Backpack - 4 Ltr"
+      ]
+    }
+  ]
+}

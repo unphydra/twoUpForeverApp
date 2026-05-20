@@ -1,3 +1,5 @@
+import travelogue from './travelogue.json';
+
 export const siteConfig = {
   profile: {
     backgroundImage: "/hero_bg.png",
@@ -72,7 +74,7 @@ export const siteConfig = {
                 ],
               },
               {
-                title: "Steelbird Air SBA-7 ISS Helmet",
+                title: "Steelbird SBH Helmet",
                 description:
                   "Flip-up helmet with inner sun shield and stylish graphics.",
                 image:
@@ -921,4 +923,6 @@ export const siteConfig = {
       },
     ],
   },
+  travelogue
 };
+
