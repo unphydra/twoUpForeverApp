@@ -52,7 +52,7 @@ function App() {
           <p>&copy; {new Date().getFullYear()} two_up_forever. All rights reserved.</p>
         </footer>
       </div>
-      <Analytics />
+      <Analytics mode={import.meta.env.PROD ? 'production' : 'development'} />
     </Router>
   );
 }
