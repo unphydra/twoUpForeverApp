@@ -52,7 +52,7 @@ function App() {
           <p>&copy; {new Date().getFullYear()} two_up_forever. All rights reserved.</p>
         </footer>
       </div>
-      <Analytics mode={import.meta.env.PROD ? 'production' : 'development'} />
+      <Analytics mode={window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? 'development' : 'production'} />
     </Router>
   );
 }
